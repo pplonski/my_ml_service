@@ -24,7 +24,7 @@ class MLRegistry:
             status = MLAlgorithmStatus(status = algorithm_status,
                                         created_by = owner,
                                         parent_mlalgorithm = database_object,
-                                        parent_endpoint = endpoint)
+                                        active = True)
             status.save()
 
         # add to registry
