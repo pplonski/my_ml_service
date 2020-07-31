@@ -1,4 +1,4 @@
-Django==2.2.4
+Django==2.2.13
 django-filter==2.2.0
 djangorestframework==3.10.3
 joblib==0.14.0
