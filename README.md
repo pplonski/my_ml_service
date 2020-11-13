@@ -23,3 +23,7 @@ In the `docker` directory there are dockerfiles for running the service in the c
 ## ML Community :rocket:
 
 Currently, I'm working on an Automated Machine Learning Python Package, called: [mljar-supervised](https://github.com/mljar/mljar-supervised). I've created a [slack channel](https://mljar-supervised.slack.com/join/shared_invite/zt-gkhfsvhw-H6LMKxxV5adeTmn9V7nbZw#/) for ML disscussions (not only about AutoML), feel free to join conversations and ask questions! :+1:
+
+## Django + React Tutorial :books:
+
+I'm working on complete tutorial how to build SaaS (software as a Service) application with Django and React from scratch. The tutorial is available at [SaaSitive](https://saasitive.com) website: https://saasitive.com/django-react/boilerplate/
