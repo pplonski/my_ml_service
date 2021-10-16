@@ -3,7 +3,9 @@ version: '2'
 services:
     nginx:
         restart: always
-        image: nginx:1.12-alpine
+        build:
+            context: .
+            dockerfile: ./docker/nginx/Dockerfile
         ports:
             - 8000:8000
         volumes:
@@ -14,6 +16,8 @@ services:
             context: .
             dockerfile: ./docker/backend/Dockerfile
         entrypoint: /app/docker/backend/wsgi-entrypoint.sh
+        # stdin_open: true  # docker run -i
+        # tty: true         # docker run -t
         volumes:
             - static_volume:/app/backend/server/static
         expose:

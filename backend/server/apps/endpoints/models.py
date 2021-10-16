@@ -1,8 +1,8 @@
 from django.db import models
 
+
 class Endpoint(models.Model):
-    '''
-    The Endpoint object represents ML API endpoint.
+    ''' ML API endpoint.
 
     Attributes:
         name: The name of the endpoint, it will be used in API URL,
@@ -12,6 +12,7 @@ class Endpoint(models.Model):
     name = models.CharField(max_length=128)
     owner = models.CharField(max_length=128)
     created_at = models.DateTimeField(auto_now_add=True, blank=True)
+
 
 class MLAlgorithm(models.Model):
     '''
@@ -34,6 +35,7 @@ class MLAlgorithm(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, blank=True)
     parent_endpoint = models.ForeignKey(Endpoint, on_delete=models.CASCADE)
 
+
 class MLAlgorithmStatus(models.Model):
     '''
     The MLAlgorithmStatus represent status of the MLAlgorithm which can change during the time.
@@ -49,7 +51,8 @@ class MLAlgorithmStatus(models.Model):
     active = models.BooleanField()
     created_by = models.CharField(max_length=128)
     created_at = models.DateTimeField(auto_now_add=True, blank=True)
-    parent_mlalgorithm = models.ForeignKey(MLAlgorithm, on_delete=models.CASCADE, related_name = "status")
+    parent_mlalgorithm = models.ForeignKey(MLAlgorithm, on_delete=models.CASCADE, related_name="status")
+
 
 class MLRequest(models.Model):
     '''
