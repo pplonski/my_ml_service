@@ -20,25 +20,7 @@ In the `backend` directory there is Django application.
 
 In the `docker` directory there are dockerfiles for running the service in the container.
 
-## Getting Started
 
-```
-$ conda create -n pplonski_ml_service "python==3.7.10"
-$ conda activate pplonski_ml_service
-$ pip install -r requirements.txt
-$ docker-compose down
-$ docker-compose build
-$ docker-compose up
-```
+## Django + React Tutorial :books:
 
-Then visit [http://localhost:8000/api/v1/](http://localhost:8000/api/v1/)
-
-## Django + Svelte
-
-John is working on a [django backend for svelte](gitlab.com/tangibleai/proai_playground_backend) 
-
-## Attribution
-
-The original author of the  `my_ml_service` project is `pplonski` [on GitHub](https://github.com/pplonski). 
-
-He's working on a "tutorial how to build SaaS (software as a Service) application with Django and React from scratch. The tutorial is available at [SaaSitive.com](https://saasitive.com) website: [saasitive.com/django-react/boilerplate](https://saasitive.com/django-react/boilerplate/)."
+I'm working on complete tutorial how to build SaaS (software as a Service) application with Django and React from scratch. The tutorial is available at [SaaSitive](https://saasitive.com) website: https://saasitive.com/django-react/boilerplate/
