@@ -23,4 +23,4 @@ In the `docker` directory there are dockerfiles for running the service in the c
 
 ## Django + React Tutorial :books:
 
-I'm working on complete tutorial how to build SaaS (software as a Service) application with Django and React from scratch. The tutorial is available at [SaaSitive](https://saasitive.com) website: https://saasitive.com/django-react/boilerplate/
+I'm working on complete tutorial how to build SaaS (software as a Service) application with Django and React from scratch. The SaaS service will be for server uptime monitoring - it is available at [monitor-uptime.com](https://monitor-uptime.com). The tutorial is available at [SaaSitive website](https://saasitive.com/react-django-tutorial/).
